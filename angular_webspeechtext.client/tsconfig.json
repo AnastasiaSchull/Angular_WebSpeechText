@@ -1,0 +1,40 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./", // Устанавливает базовый путь к исходным файлам проекта
+    "paths": { // Определяет псевдонимы для импортов
+      "*": [ "src/*" ], // Позволяет использовать неабсолютные пути, как если бы они находились в каталоге src
+      "@app/*": [ "src/app/*" ], // Специфический псевдоним для удобства, представляющий путь к папке app
+      "@models/*": [ "src/app/models/*" ], // Псевдоним для моделей
+      "@services/*": [ "src/app/services/*" ], // Псевдоним для сервисов
+      "@components/*": [ "src/app/components/*" ] // Псевдоним для компонентов
+    },
+    "outDir": "./dist/out-tsc",
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": [
+      "ES2022",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

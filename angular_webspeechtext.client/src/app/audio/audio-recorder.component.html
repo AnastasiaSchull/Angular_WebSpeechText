@@ -1,0 +1,25 @@
+<main>
+  <h1>Welcome to Speech to Text!</h1>
+  <div class="container">
+    <button (click)="requestMicrophoneAccess()">Allow microphone access</button>
+    <button (click)="cancelMicrophoneAccess()">Deny microphone access</button>
+
+    <p id="status" [ngStyle]="{ color: micAvailable ? 'blue' : 'green' }">
+      {{ micAvailable ?  'Microphone is enabled. Click on Record and say a phrase.' : 'Microphone is disabled' }}
+    </p>
+
+    <!-- динамическое сообщение при записи -->
+    <p id="recording-status" *ngIf="isRecording" style="color: blue;">
+      Speak now. After speaking, click Stop Recording to see the translation.
+    </p>
+
+    <button (click)="startRecording()" [disabled]="!micAvailable">Record</button>
+    <button (click)="stopRecording()">Stop Recording</button>
+
+    <hr>
+    <span id="speech">{{ speechText }}</span>
+    <h3 id="translated">{{ translatedText }}</h3>
+
+    <a routerLink="/home" class="btn btn-secondary">Logout</a>
+    </div>
+</main>

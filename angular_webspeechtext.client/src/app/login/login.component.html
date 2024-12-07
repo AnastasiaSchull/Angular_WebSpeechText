@@ -1,0 +1,31 @@
+<h1>Welcome to Speech to Text!</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <form (ngSubmit)="login()">
+        <div class="form-group">
+          <label for="login" class="control-label">Login:</label>
+          <input type="text"
+                 id="login"
+                 [(ngModel)]="model.login"
+                 name="login"
+                 class="form-control"
+                 required />
+        </div>
+        <div class="form-group">
+          <label for="password" class="control-label">Password:</label>
+          <input type="password"
+                 id="password"
+                 [(ngModel)]="model.password"
+                 name="password"
+                 class="form-control"
+                 required />
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+      <a routerLink="/home" class="btn btn-secondary">Logout</a>
+    </div>
+  </div>
+</div>

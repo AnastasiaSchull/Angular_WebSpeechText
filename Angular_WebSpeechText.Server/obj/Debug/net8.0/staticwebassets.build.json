@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "ZZ7kBeRvwGMuygLaa9VwMNyGhL3MZ7QqDaxqwj59wi8=",
+  "Source": "Angular_WebSpeechText.Server",
+  "BasePath": "_content/Angular_WebSpeechText.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Anastasia\\Desktop\\Angular_WebSpeechText\\angular_webspeechtext.client\\angular_webspeechtext.client.esproj",
+      "Version": 2,
+      "Source": "angular_webspeechtext.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Angular_WebSpeechText.Server\\wwwroot",
+      "Source": "Angular_WebSpeechText.Server",
+      "ContentRoot": "C:\\Users\\Anastasia\\Desktop\\Angular_WebSpeechText\\Angular_WebSpeechText.Server\\wwwroot\\",
+      "BasePath": "_content/Angular_WebSpeechText.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

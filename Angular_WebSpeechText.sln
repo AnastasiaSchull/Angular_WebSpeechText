@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_WebSpeechText.Server", "Angular_WebSpeechText.Server\Angular_WebSpeechText.Server.csproj", "{EA8C94E3-AE02-48BB-94DB-F3A2824AC5D0}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angular_webspeechtext.client", "angular_webspeechtext.client\angular_webspeechtext.client.esproj", "{C37D1783-8154-42FF-940C-5F04C9BFC4D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA8C94E3-AE02-48BB-94DB-F3A2824AC5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8C94E3-AE02-48BB-94DB-F3A2824AC5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8C94E3-AE02-48BB-94DB-F3A2824AC5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8C94E3-AE02-48BB-94DB-F3A2824AC5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37D1783-8154-42FF-940C-5F04C9BFC4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37D1783-8154-42FF-940C-5F04C9BFC4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37D1783-8154-42FF-940C-5F04C9BFC4D1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C37D1783-8154-42FF-940C-5F04C9BFC4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37D1783-8154-42FF-940C-5F04C9BFC4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37D1783-8154-42FF-940C-5F04C9BFC4D1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B793DFA-5BFE-4F21-ABFF-E454465D967D}
+	EndGlobalSection
+EndGlobal
